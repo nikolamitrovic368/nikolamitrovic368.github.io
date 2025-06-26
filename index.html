@@ -1,11 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Nikola & Tanja Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Nikola & Tanja</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi, <br />We’re
+            <span class="home__title-color"
+              >Nikola Mitrovic & Tanja Mitrovic</span
+            ><br />
+            Web Developers
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <!-- <div class="home__social">
+          <a href="" class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="" class="home__social-icon"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div> -->
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div>
+            <h2 class="about__subtitle">We are family!</h2>
+            <p class="about__text">
+              We’re Nikola Mitrovic and Tanja Mitrovic — a husband-and-wife team
+              combining creativity and technology to build meaningful digital
+              experiences. As a family, we collaborate closely on each project.
+              Tanja, with her strong eye for detail, leads the UI/UX design
+              process — focusing on intuitive user journeys and beautiful visual
+              design. Nikola handles development and API integration, connecting
+              storefronts, third-party services, and backend systems into
+              seamless, high-performance solutions. Every project is a shared
+              effort, rooted in trust, communication, and a shared passion for
+              quality. We love what we do — and we’re proud to do it together as
+              a family.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">SHOPIFY</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">jQuery</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">Tailwind CSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">REACT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">NEXT.JS</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">HYDROGEN</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <span class="skills__name">UX/UI</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">100%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/work2.webp" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+          <a href="https://www.shelly.com/" class="work__img">
+            <img src="assets/img/work1.webp" alt="" />
+            <div style="padding: 1rem">
+              Transforming an IoT Unicorn with a Complex Migration from Shopware
+              to Shopify Plus
+            </div>
+          </a>
+          <a href="https://www.liveinnermost.com/" class="work__img">
+            <img src="assets/img/work2.webp" alt="" />
+            <div style="padding: 1rem">
+              Extensive Shopify Plus refresh, Internationalization, and Priority
+              support for an upscale nutrition brand
+            </div>
+          </a>
+          <a href="https://nlbeauty.bg/" class="work__img">
+            <img src="assets/img/work3.webp" alt="" />
+            <div style="padding: 1rem">
+              Shopify Launch for NLBeauty - a recognizable cosmetic brand
+            </div>
+          </a>
+          <a href="https://forearthbyus.com/" class="work__img">
+            <img src="assets/img/work4.webp" alt="" />
+            <div style="padding: 1rem">
+              Transforming an Amazon brand into a superstar Shopify e-commerce
+            </div>
+          </a>
+          <a href="https://lynxshop.com/" class="work__img">
+            <img src="assets/img/work5.webp" alt="" />
+            <div style="padding: 1rem">
+              Launching a successful Amazon roleplay accessories brand on
+              Shopify
+            </div>
+          </a>
+          <a href="https://www.ladygaga.com/us-en" class="work__img">
+            <img src="assets/img/work6.webp" alt="" />
+            <div style="padding: 1rem">
+              Rebuilding LadyGaga.com: A Shopify Hydrogen Site Built for
+              Millions of Fans
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form id="contactForm" action="" class="contact__form">
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              class="contact__input"
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              class="contact__input"
+            />
+            <textarea
+              id="message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+              placeholder="Message"
+            ></textarea>
+            <input
+              type="button"
+              value="SEND"
+              class="contact__button button"
+              id="sendBtn"
+            />
+          </form>
+          <div class="">
+            <h2 style="padding-bottom: 1rem; padding-top: 1.5rem">
+              Contact Information
+            </h2>
+            <h3 style="margin: 0.25rem">Nikola: nikolamitrovic368@gmail.com</h3>
+            <h3 style="margin: 0.25rem">
+              Tanja: tanjica.mitrovic986@gmail.com
+            </h3>
+            <h3>Address: Smederevo, Central Serbia 11300</h3>
+          </div>
+
+          <script>
+            document
+              .getElementById("sendBtn")
+              .addEventListener("click", function () {
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const message = document.getElementById("message").value.trim();
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (!name || !email || !message) {
+                  alert("Please fill in all fields.");
+                  return;
+                }
+                if (!emailRegex.test(email)) {
+                  alert("Please enter a valid email address.");
+                  return;
+                }
+                setTimeout(() => {
+                  alert("Message sent successfully!");
+                }, 1000);
+              });
+          </script>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Nikola & Tanja</p>
+      <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
